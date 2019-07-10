@@ -1,0 +1,23 @@
+---
+swagger: "2.0"
+info:
+  description: "Simple REST API service."
+  version: "1.0.0"
+  title: "Service 1"
+  contact:
+    email: "tisnik@somewhere.else"
+  license:
+    name: "Apache 2.0"
+    url: "http://www.apache.org/licenses/LICENSE-2.0.html"
+basePath: "/api/v1"
+tags:
+- name: "Service settings"
+  description: "The service settings"
+schemes:
+- "https"
+- "http"
+paths: {}
+definitions: {}
+externalDocs:
+  description: "Find out more about Swagger"
+  url: "http://swagger.io"

@@ -18,8 +18,8 @@ def get_liveness():
     return health_check()
 
 
-KNOWN_RECIPIENTS = {"Puchmajer", "Meyer", "Pihrt", "Jason", "Drson", "Trachta", "Fristensky"}
-ALLOWED_RECIPIENTS = {"Jason", "Drson", "Trachta", "Fristensky"}
+KNOWN_RECIPIENTS = ("Puchmajer", "Meyer", "Pihrt", "Jason", "Drson", "Trachta", "Fristensky")
+ALLOWED_RECIPIENTS = ("Jason", "Drson", "Trachta", "Fristensky")
 
 
 def send_message(recipient, message):
